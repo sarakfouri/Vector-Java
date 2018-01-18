@@ -70,7 +70,7 @@ public String toString(){
 	}
 	StringBuilder builder = new StringBuilder();
 	builder.append("[");
-	for (int i =0; i < this.totalCostumers -1; i++){
+	for (int i =0; i < this.totalCostumers; i++){
 	builder.append(this.costumer[i]);
 	builder.append(", ");
 	}
